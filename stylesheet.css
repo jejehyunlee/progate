@@ -2,6 +2,7 @@
     box-sizing: border-box;
   }
   
+
   body {
     margin: 0;
     font-family: "Lucida Grande";
@@ -24,9 +25,9 @@
   
   .top-wrapper {
     padding: 180px 0 100px 0;
-    background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+    background-color: #d3d1d4 ;
     background-size: cover;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
   }
   
@@ -52,17 +53,17 @@
   }
   
   .signup {
-    background-color: #239b76;
+    background-color: #525783;
   }
   
-  .facebook {
-    background-color: #3b5998;
+  /* .facebook {
+    background-color: #4e983b;
     margin-right: 10px;
   }
   
   .twitter {
-    background-color: #55acee;
-  }
+    background-color: #e20d0d;
+  } */
   
   .btn {
     padding: 12px 24px;
@@ -101,7 +102,7 @@
   
   .header-right {
     float: right;
-    margin-right: -25px;
+    margin-right: 25px;
   }
   
   .header-right a {
@@ -181,9 +182,9 @@
   
   .message {
     padding: 15px 40px;
-    background-color: #5dca88;
+    background-color: #296fa8;
     cursor: pointer;
-    box-shadow: 0 7px #1a7940;
+    box-shadow: 0 7px #181929;
   }
   
   .message:active {
@@ -197,8 +198,9 @@
   }
   
   footer p {
-    color: #b3aeb5;
+    color: #130e14;
     font-size: 12px;
+    float: right;
   }
   
   footer {
